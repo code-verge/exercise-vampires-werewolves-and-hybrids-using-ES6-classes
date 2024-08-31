@@ -191,22 +191,37 @@ Happy coding! May your supernatural beings be both terrifying and bug-free! 🧛
 
 ## Frequently Asked Questions (FAQs)
 
-- What is the purpose of the `Supernatural` class?
+<details>
+<summary>What is the purpose of the `Supernatural` class?</summary>
+
+The `Supernatural` class serves as a base class for all supernatural beings in this exercise. It defines common properties and methods that are shared by vampires, werewolves, and hybrids. By creating a base class, we can avoid code duplication and establish a consistent structure for the derived classes.
+
+</details>
+
+<details>
+<summary>How do I create a subclass that inherits from a base class?</summary>
+
+To create a subclass that inherits from a base class, you can use the `extends` keyword followed by the name of the base class.
+
+</details>
+
+<details>
+<summary>What is the purpose of the `super` keyword in the constructor of a subclass?</summary>
+
+The `super` keyword is used in the constructor of a subclass to call the constructor of its parent class. It allows you to pass arguments to the parent constructor and initialize any inherited properties. In this exercise, you'll use `super` to pass the `name` and `powerLevel` arguments to the `Supernatural` constructor.
+
+</details>
+
+<details>
+<summary>How can I access the private field `#powerLevel` from within a class method?</summary>
+
+Private fields, denoted by the # symbol, can only be accessed from within the class where they are defined. To access the `#powerLevel` field in a class method, you can simply use `this.#powerLevel`. Keep in mind that private fields are not accessible from outside the class or from subclasses.
+
+</details>
     
-    The `Supernatural` class serves as a base class for all supernatural beings in this exercise. It defines common properties and methods that are shared by vampires, werewolves, and hybrids. By creating a base class, we can avoid code duplication and establish a consistent structure for the derived classes.
-    
-- How do I create a subclass that inherits from a base class?
-    
-    To create a subclass that inherits from a base class, you can use the `extends` keyword followed by the name of the base class.
-    
-- What is the purpose of the `super` keyword in the constructor of a subclass?
-    
-    The `super` keyword is used in the constructor of a subclass to call the constructor of its parent class. It allows you to pass arguments to the parent constructor and initialize any inherited properties. In this exercise, you'll use `super` to pass the `name` and `powerLevel` arguments to the `Supernatural` constructor.
-    
-- How can I access the private field `#powerLevel` from within a class method?
-    
-    Private fields, denoted by the # symbol, can only be accessed from within the class where they are defined. To access the `#powerLevel` field in a class method, you can simply use `this.#powerLevel`. Keep in mind that private fields are not accessible from outside the class or from subclasses.
-    
-- How do I override a method from a parent class in a subclass?
-    
-    To override a method from a parent class in a subclass, you simply define a method with the same name in the subclass. When an instance of the subclass calls the method, the overridden version in the subclass will be executed instead of the parent class's version. In this exercise, you'll override the `introduceSelf()` method in the `Vampire`, `Werewolf`, and `Hybrid` classes.
+<details>
+<summary>How do I override a method from a parent class in a subclass?</summary>
+
+To override a method from a parent class in a subclass, you simply define a method with the same name in the subclass. When an instance of the subclass calls the method, the overridden version in the subclass will be executed instead of the parent class's version. In this exercise, you'll override the `introduceSelf()` method in the `Vampire`, `Werewolf`, and `Hybrid` classes.
+
+</details>
