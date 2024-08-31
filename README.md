@@ -165,7 +165,7 @@ import Hybrid from './Hybrid.js';
 import Townsperson from './Townsperson.js';
 ```
 
-1. Move the `encounter()` function & your testing code from `supernatural.js` into `index.js`.
+3. Move the `encounter()` function & your testing code from `supernatural.js` into `index.js`.
 
 **Step 4: Run your refactored code**
 
